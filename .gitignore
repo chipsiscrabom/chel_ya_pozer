@@ -1,5 +1,65 @@
-# Object file
-*.o
+# Создано компанией https://www.toptal.com/developers/gitignore/api/windows, osx,sass
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows, osx,sass
 
-# Ada Library Information
-*.ali
+### OSX ###
+# General
+.DS_Store
+. AppleDouble
+.LSOverride
+
+# Значок должен заканчиваться двумя \r
+Икона
+
+
+# Миниатюры
+._*
+
+# Файлы, которые могут появиться в корне Тома
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Временные элементы
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.донотпрезент
+
+# Каталоги, потенциально созданные на удаленном общем ресурсе AFP
+.AppleDB
+.AppleDesktop
+Сетевая Корзина
+Временные предметы
+.apdisk
+
+### Сасс ###
+.sass-кэш/
+*.css.map
+*.sass.map
+*. scss. map
+
+### Windows ###
+# Файлы кэша миниатюр Windows
+Большие пальцы. db
+Thumbs.db:шифруемый ehthumbs
+.db
+ehthumbs_vista.db
+
+# Файл дампа
+*. stackdump
+
+# Файл конфигурации папки
+[Dd]esktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$RECYCLE.BIN/
+
+# Файлы установщика Windows
+*.cab
+*.msi
+*. msix
+*.msm
+*. msp
+
+# Ярлыки Windows
+*.lnk
+
+# Конец года https://www.toptal.com/developers/gitignore/api/windows, osx, sass
